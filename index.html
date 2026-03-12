@@ -1,201 +1,333 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Piyush Aughad | Data Analytics Portfolio</title>
-
-    <link rel="icon" type="image/png" href="/favicon-32x32.png">
-    <link rel="apple-touch-icon" href="/favicon-32x32.png">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-
-    <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Piyush Aughad | Data Analyst Portfolio</title>
+  <meta name="description" content="Piyush Aughad - Data Analyst, Data Engineer, and DevOps portfolio website" />
+  <link rel="icon" type="image/png" href="/favicon-32x32.png" />
+  <link rel="apple-touch-icon" href="/favicon-32x32.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="portfolio_desktop.css" />
 </head>
 <body>
+  <div class="bg-grid"></div>
+  <div class="bg-glow"></div>
+  <div class="bg-particles" id="particles"></div>
 
-<header>
-    <div class="container">
-        <h1>Piyush Aughad</h1>
-        <p>Data Analyst | Data Engineer | DevOps & Cloud Enthusiast</p>
-        <div class="social-links">
-            <a href="https://linkedin.com/in/piyush-aughad" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-            <a href="https://github.com/piyushaughad" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-            <a href="mailto:piyushaughad@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
-            <a href="assets/Piyush_Aughad.pdf" download title="Download CV"><i class="fas fa-file-arrow-down"></i></a>
+  <div class="nav-wrap container">
+    <nav class="glass" id="navbar">
+      <div class="nav-inner">
+        <a class="brand" href="#home">
+          <span class="brand-badge">PA</span>
+          <span>Piyush Aughad</span>
+        </a>
+        <div class="nav-links">
+          <a href="#about">About</a><a href="#journey">Journey</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#contact">Contact</a>
         </div>
-    </div>
-</header>
+        <a class="nav-cta" href="assets/Piyush_Aughad.pdf" download><i class="fa-solid fa-file-arrow-down"></i> Download CV</a>
+      </div>
+    </nav>
+  </div>
 
-<nav>
-    <div class="container">
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </div>
-</nav>
+  <main id="home">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="pulse"></span> Open to Data Analyst, Data Engineer, and DevOps opportunities</div>
+          <h1>Building <span>data-driven solutions</span></h1>
+          <p class="lead">I’m Piyush Aughad, a data professional with 4+ years of experience in analytics, reporting, ETL workflows, dashboards, and modern cloud-based deployment practices. I focus on turning raw data into meaningful insights and scalable solutions.</p>
+          <div class="typed" id="typedText"></div>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary"><i class="fa-solid fa-rocket"></i> Explore Projects</a>
+            <a href="#contact" class="btn btn-secondary"><i class="fa-regular fa-paper-plane"></i> Let’s Connect</a>
+          </div>
+          <div class="social-row">
+            <a class="icon-link" href="https://linkedin.com/in/piyush-aughad" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a class="icon-link" href="https://github.com/piyushaughad" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+            <a class="icon-link" href="mailto:piyushaughad@gmail.com" title="Email"><i class="fa-regular fa-envelope"></i></a>
+          </div>
+        </div>
 
-<section id="about" class="section">
-    <div class="container">
-        <h2>About Me</h2>
-        <div class="about-content">
-            <img src="assets/images/profile-placeholder.jpg" alt="Piyush Aughad" class="profile-photo">
-            <div class="about-text">
-                <p>I am a Data Analyst with 4+ years of experience in data processing, analytics, reporting, and dashboard development. My work focuses on turning raw and complex datasets into clear insights that support better business decisions.</p>
-                <p>I have hands-on experience with Python, SQL, Power BI, Tableau, ETL workflows, and data modelling. I am also building strong practical expertise in Docker, Jenkins, Kubernetes, and cloud platforms to bridge data analytics with modern data engineering and DevOps practices.</p>
+        <div class="hero-side reveal">
+          <div class="hero-card glass">
+            <div class="profile-top">
+              <img src="assets/images/profile-placeholder.jpg" alt="Piyush Aughad" class="profile-photo" />
+              <div class="profile-info"><h3>Piyush Aughad</h3>
+			  <p class="location"><img src="assets/icons/location.png" class="location-icon"> Dublin • Ireland</p></div>
             </div>
+          </div>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
-<section id="projects" class="section">
-    <div class="container">
-        <h2>My Projects</h2>
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section-title reveal">About Me</h2>
+        <p class="section-copy reveal">My background combines analytics, ETL development, dashboard storytelling, and practical cloud deployment. I enjoy working across the full data lifecycle, from cleaning and modelling data to presenting business insights and automating delivery pipelines.</p>
+
+        <div class="about-wrap">
+          <div class="about-card glass reveal">
+            <h3 class="card-heading">What I bring</h3>
+            <p>I have built SQL and Python-based workflows, designed dashboards in Power BI and Tableau, worked with data warehousing concepts such as star schema and dimensional modelling, and created deployment pipelines using Jenkins, Docker, Kubernetes, and Google Cloud.</p>
+            <div class="badge-list mt-22">
+              <span class="badge">Python</span><span class="badge">SQL</span><span class="badge">Power BI</span><span class="badge">Tableau</span><span class="badge">ETL</span><span class="badge">PySpark</span><span class="badge">Docker</span><span class="badge">Jenkins</span><span class="badge">Kubernetes</span><span class="badge">AWS</span><span class="badge">GCP</span>
+            </div>
+          </div>
+
+          <div class="timeline-card glass reveal" id="journey">
+            <h3 class="card-heading">Career Journey</h3>
+            <div class="timeline">
+              <div class="timeline-item"><h4>Master’s in Data Analytics — Dublin Business School</h4><small>Sep 2024 – Sep 2025</small><p>Completed with First Class Honour, strengthening practical expertise in data analytics, engineering workflows, and business insight generation.</p></div>
+              <div class="timeline-item"><h4>Senior Executive Data Processing — IPSOS</h4><small>Mar 2022 – Sep 2024</small><p>Worked on analytics and reporting solutions, built Python and SQL pipelines, performed data validation, delivered Power BI and Tableau dashboards, and supported CI/CD and cloud deployment workflows.</p></div>
+              <div class="timeline-item"><h4>Data Analyst — Course 5 Transformative Intelligence</h4><small>Feb 2020 – Feb 2022</small><p>Focused on SQL-based ETL, analytics datasets, predictive modelling, data cleansing, and query performance improvement.</p></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="stats-grid">
+          <div class="stat-card glass reveal"><div class="stat-number counter" data-target="5">0</div><div class="stat-text">Years of professional experience in analytics and reporting</div></div>
+          <div class="stat-card glass reveal"><div class="stat-number counter" data-target="6">0</div><div class="stat-text">Featured projects in dashboards, ML, warehousing, and MLOps</div></div>
+          <div class="stat-card glass reveal"><div class="stat-number counter" data-target="3">0</div><div class="stat-text">Career focus areas: Data Analytics, Data Engineering, DevOps</div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="projects-header">
+          <div>
+            <h2 class="section-title reveal">Featured Projects</h2>
+            <p class="section-copy reveal">A mix of interactive dashboards, warehouse design, predictive modelling, and deployment-focused work. Use the filters to explore by category.</p>
+          </div>
+          <div class="filter-wrap reveal">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="analytics">Analytics</button>
+            <button class="filter-btn" data-filter="ml">Machine Learning</button>
+            <button class="filter-btn" data-filter="engineering">Engineering</button>
+          </div>
+        </div>
+
         <div class="projects-grid">
+          <article class="project-card glass reveal" data-category="analytics">
+            <div class="project-cover"><i class="project-icon fa-solid fa-chart-line"></i></div>
+            <h3>Bike Share Station Dashboard</h3>
+            <p>An interactive dashboard that visualizes bike station availability and usage trends using Python, Streamlit, and Pandas. The project focuses on accessible metrics and user-friendly analytics presentation.</p>
+            <div class="project-meta"><span class="tag">Python</span><span class="tag">Streamlit</span><span class="tag">Pandas</span><span class="tag">Dashboard</span></div>
+            <div class="project-actions"><a href="https://bikeshare-tcx3auvxmoxfy7htcwqiu8.streamlit.app/" target="_blank">View Live App</a><a href="https://github.com/piyushaughad" target="_blank">GitHub</a></div>
+          </article>
 
-            <div class="project-card">
-                <img src="assets/images/project-placeholder-1.jpg" alt="Bike Share Station Dashboard Preview">
-                <div class="project-card-content">
-                    <h3>Bike Share Station Dashboard</h3>
-                    <p>An interactive dashboard to visualize bike station availability and usage insights with a user-friendly analytics experience. Built using Python, Streamlit, and Pandas.</p>
-                    <div class="project-buttons">
-                        <a href="https://github.com/piyushaughad" target="_blank" class="btn">Documentation</a>
-                        <a href="https://bikeshare-tcx3auvxmoxfy7htcwqiu8.streamlit.app/" target="_blank" class="btn btn-secondary">View Dashboard</a>
-                    </div>
-                </div>
-            </div>
+          <article class="project-card glass reveal" data-category="engineering">
+            <div class="project-cover"><i class="project-icon fa-solid fa-database"></i></div>
+            <h3>Data Warehouse & Grocery Sales Analytics</h3>
+            <p>Designed a star-schema warehouse and built dashboards to analyse sales by product, region, and discounts. This project demonstrates data modelling, ETL design, and business reporting.</p>
+            <div class="project-meta"><span class="tag">SSIS</span><span class="tag">Tableau</span><span class="tag">Neo4j</span><span class="tag">SQL</span></div>
+            <div class="project-actions"><a href="https://github.com/piyushaughad/Grocery-Sales" target="_blank">Documentation</a><a href="https://github.com/piyushaughad/Grocery-Sales" target="_blank">View Project</a></div>
+          </article>
 
-            <div class="project-card">
-                <img src="assets/images/project-placeholder-2.jpg" alt="Data Warehouse and Grocery Sales Analytics Preview">
-                <div class="project-card-content">
-                    <h3>Data Warehouse & Grocery Sales Analytics</h3>
-                    <p>A star-schema data warehouse project with dashboards analyzing sales by product, region, and discounts. Built using SSIS, Tableau, Neo4j, and SQL.</p>
-                    <div class="project-buttons">
-                        <a href="https://github.com/piyushaughad/Grocery-Sales" target="_blank" class="btn">Documentation</a>
-                        <a href="https://github.com/piyushaughad/Grocery-Sales" target="_blank" class="btn btn-secondary">View Project</a>
-                    </div>
-                </div>
-            </div>
+          <article class="project-card glass reveal" data-category="ml">
+            <div class="project-cover"><i class="project-icon fa-solid fa-stethoscope"></i></div>
+            <h3>Breast Cancer Prediction</h3>
+            <p>A supervised machine learning application using SVM, Random Forest, and Decision Tree models to support breast cancer prediction through an accessible Streamlit interface.</p>
+            <div class="project-meta"><span class="tag">Scikit-learn</span><span class="tag">Python</span><span class="tag">ML</span><span class="tag">Streamlit</span></div>
+            <div class="project-actions"><a href="https://cdcxmce7abkmsmgojzxstt.streamlit.app/" target="_blank">View Live App</a><a href="https://github.com/piyushaughad" target="_blank">GitHub</a></div>
+          </article>
 
-            <div class="project-card">
-                <img src="assets/images/project-placeholder-3.jpg" alt="Breast Cancer Prediction Preview">
-                <div class="project-card-content">
-                    <h3>Breast Cancer Prediction</h3>
-                    <p>A machine learning application that predicts breast cancer using supervised models such as SVM, Random Forest, and Decision Tree. Built with Python and Scikit-learn.</p>
-                    <div class="project-buttons">
-                        <a href="https://github.com/piyushaughad" target="_blank" class="btn">Documentation</a>
-                        <a href="https://cdcxmce7abkmsmgojzxstt.streamlit.app/" target="_blank" class="btn btn-secondary">View Dashboard</a>
-                    </div>
-                </div>
-            </div>
+          <article class="project-card glass reveal" data-category="engineering">
+            <div class="project-cover"><i class="project-icon fa-solid fa-gears"></i></div>
+            <h3>MLOps CI/CD Pipeline Project</h3>
+            <p>A deployment-focused project that uses Jenkins, Docker, Kubernetes, and Google Cloud Platform to automate container build, image publishing, and application deployment workflows.</p>
+            <div class="project-meta"><span class="tag">Jenkins</span><span class="tag">Docker</span><span class="tag">Kubernetes</span><span class="tag">GCP</span></div>
+            <div class="project-actions"><a href="https://github.com/piyushaughad/MLOPS-Project-Code" target="_blank">Documentation</a><a href="https://github.com/piyushaughad/MLOPS-Project-Code" target="_blank">View Project</a></div>
+          </article>
 
-            <div class="project-card">
-                <img src="assets/images/project-placeholder-4.jpg" alt="MLOps CI/CD Pipeline Project Preview">
-                <div class="project-card-content">
-                    <h3>MLOps CI/CD Pipeline Project</h3>
-                    <p>A production-style deployment project using Jenkins, Docker, Kubernetes, and Google Cloud Platform to automate build, containerization, and deployment workflows.</p>
-                    <div class="project-buttons">
-                        <a href="https://github.com/piyushaughad/MLOPS-Project-Code" target="_blank" class="btn">Documentation</a>
-                        <a href="https://github.com/piyushaughad/MLOPS-Project-Code" target="_blank" class="btn btn-secondary">View Project</a>
-                    </div>
-                </div>
-            </div>
+          <article class="project-card glass reveal" data-category="ml">
+            <div class="project-cover"><i class="project-icon fa-solid fa-dna"></i></div>
+            <h3>Chronic Kidney Disease Prediction</h3>
+            <p>A classification project that predicts CKD using models such as Logistic Regression and Naive Bayes, focused on practical healthcare-oriented predictive analytics.</p>
+            <div class="project-meta"><span class="tag">Classification</span><span class="tag">Python</span><span class="tag">Scikit-learn</span><span class="tag">Streamlit</span></div>
+            <div class="project-actions"><a href="https://github.com/piyushaughad/Kidney-disease" target="_blank">Documentation</a><a href="https://github.com/piyushaughad/Kidney-disease" target="_blank">View Project</a></div>
+          </article>
 
+          <article class="project-card glass reveal" data-category="ml">
+            <div class="project-cover"><i class="project-icon fa-solid fa-feather-pointed"></i></div>
+            <h3>Chicken Disease Classification</h3>
+            <p>A CNN-based computer vision project that classifies poultry health status using image data, combining deep learning with practical agricultural use cases.</p>
+            <div class="project-meta"><span class="tag">TensorFlow</span><span class="tag">Keras</span><span class="tag">Computer Vision</span><span class="tag">Deep Learning</span></div>
+            <div class="project-actions"><a href="https://github.com/piyushaughad/chiken-Disease-classification" target="_blank">Documentation</a><a href="https://github.com/piyushaughad/chiken-Disease-classification" target="_blank">View Project</a></div>
+          </article>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
-<section id="skills" class="section">
-    <div class="container">
-        <h2>Technical Skillset</h2>
-        <div class="skills-table">
-
-            <div class="skill-column">
-                <div class="skill-header">
-                    <i class="fas fa-chart-pie"></i>
-                    <h3>Data Visualization</h3>
-                </div>
-                <ul class="skill-list">
-                    <li>Power BI</li>
-                    <li>Tableau</li>
-                    <li>KPI Reporting</li>
-                    <li>Dashboard Design</li>
-                </ul>
+    <section class="section" id="skills">
+      <div class="container">
+        <h2 class="section-title reveal">Technical Skillset</h2>
+        <p class="section-copy reveal">This section highlights the mix of analytical, engineering, and deployment skills I use across projects and professional work.</p>
+        <div class="skills-layout">
+<!--		
+          <div class="skills-card glass reveal">
+            <h3>Core Strengths</h3>
+            <div class="skill-block"><div class="skill-head"><span>SQL & Data Analysis</span><span>92%</span></div><div class="skill-bar"><div class="skill-progress" data-width="92%"></div></div></div>
+            <div class="skill-block"><div class="skill-head"><span>Python, Pandas, ETL Workflows</span><span>90%</span></div><div class="skill-bar"><div class="skill-progress" data-width="90%"></div></div></div>
+            <div class="skill-block"><div class="skill-head"><span>Power BI & Tableau</span><span>88%</span></div><div class="skill-bar"><div class="skill-progress" data-width="88%"></div></div></div>
+            <div class="skill-block"><div class="skill-head"><span>Data Modelling & Warehousing</span><span>85%</span></div><div class="skill-bar"><div class="skill-progress" data-width="85%"></div></div></div>
+            <div class="skill-block"><div class="skill-head"><span>Docker, Jenkins, Kubernetes</span><span>80%</span></div><div class="skill-bar"><div class="skill-progress" data-width="80%"></div></div></div>
+            <div class="skill-block mb-0"><div class="skill-head"><span>AWS & Google Cloud Platform</span><span>78%</span></div><div class="skill-bar"><div class="skill-progress" data-width="78%"></div></div></div>
+          </div>
+-->
+          <div class="skills-card glass reveal">
+            <h3>Tools & Technologies</h3>
+            <div class="skill-pills">
+              <span class="badge">Python</span><span class="badge">SQL</span><span class="badge">Pandas</span><span class="badge">NumPy</span><span class="badge">PySpark</span><span class="badge">Power BI</span><span class="badge">Tableau</span><span class="badge">SSIS</span><span class="badge">SSRS</span><span class="badge">Star Schema</span><span class="badge">Dimensional Modelling</span><span class="badge">Data Validation</span><span class="badge">Data Quality Checks</span><span class="badge">Git</span><span class="badge">GitHub</span><span class="badge">GitHub Actions</span><span class="badge">Jenkins</span><span class="badge">Docker</span><span class="badge">Kubernetes</span><span class="badge">Linux</span><span class="badge">AWS S3</span><span class="badge">AWS Glue</span><span class="badge">AWS Lambda</span><span class="badge">Athena</span><span class="badge">Google Cloud</span><span class="badge">Agile / Scrum</span>
             </div>
-
-            <div class="skill-column">
-                <div class="skill-header">
-                    <i class="fas fa-search-plus"></i>
-                    <h3>Data Analysis</h3>
-                </div>
-                <ul class="skill-list">
-                    <li>SQL</li>
-                    <li>Python (Pandas, NumPy)</li>
-                    <li>PySpark</li>
-                    <li>Data Validation & Quality Checks</li>
-                </ul>
-            </div>
-
-            <div class="skill-column">
-                <div class="skill-header">
-                    <i class="fas fa-cogs"></i>
-                    <h3>Data Engineering & Cloud</h3>
-                </div>
-                <ul class="skill-list">
-                    <li>ETL Pipelines</li>
-                    <li>Star Schema & Dimensional Modelling</li>
-                    <li>Docker, Jenkins, Kubernetes</li>
-                    <li>AWS & Google Cloud Platform</li>
-                </ul>
-            </div>
-
+          </div>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
-<section id="contact" class="section">
-    <div class="container">
-        <h2>Send me a message</h2>
+    <section class="section" id="contact">
+      <div class="container">
+        <h2 class="section-title reveal">Let’s Connect</h2>
+        <p class="section-copy reveal">If you’re hiring for a data-focused role or would like to discuss a project, feel free to reach out.</p>
 
-        <form action="https://formsubmit.co/piyushaughad@gmail.com" method="POST" class="contact-form">
-            <p>Interested in collaborating or have questions about my work? I would love to hear from you.</p>
-
-            <div class="form-group">
-                <label for="name">Name</label>
-                <input type="text" name="name" id="name" placeholder="Your name" required>
+        <div class="contact-layout">
+          <div class="contact-card glass reveal">
+            <h3 class="card-heading">Contact Details</h3>
+            <p>I’m based in Dublin, Ireland and open to opportunities in Data Analytics, Data Engineering, and DevOps-related roles.</p>
+            <div class="contact-points">
+              <div class="contact-point"><i class="fa-regular fa-envelope"></i><div><strong>Email</strong><div class="muted-line">piyushaughad@gmail.com</div></div></div>
+              <div class="contact-point"><i class="fab fa-linkedin-in"></i><div><strong>LinkedIn</strong><div class="muted-line">linkedin.com/in/piyush-aughad</div></div></div>
+              <div class="contact-point"><i class="fab fa-github"></i><div><strong>GitHub</strong><div class="muted-line">github.com/piyushaughad</div></div></div>
             </div>
-            <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email" placeholder="Your email" required>
-            </div>
-            <div class="form-group">
-                <label for="subject">Subject</label>
-                <input type="text" name="subject" id="subject" placeholder="Subject" required>
-            </div>
-            <div class="form-group">
-                <label for="message">Message</label>
-                <textarea name="message" id="message" rows="6" placeholder="Your message" required></textarea>
-            </div>
+          </div>
 
-            <button type="submit" class="btn">Send Message</button>
-        </form>
-    </div>
-</section>
+          <div class="contact-card glass reveal">
+            <form action="https://formsubmit.co/piyushaughad@gmail.com" method="POST" class="contact-form">
+              <input type="hidden" name="_subject" value="Portfolio Contact Form Submission"><input type="hidden" name="_captcha" value="false">
+              <div class="form-row">
+                <div class="input-group"><label for="name">Name</label><input type="text" id="name" name="name" placeholder="Your name" required /></div>
+                <div class="input-group"><label for="email">Email</label><input type="email" id="email" name="email" placeholder="Your email" required /></div>
+              </div>
+              <div class="input-group"><label for="subject">Subject</label><input type="text" id="subject" name="subject" placeholder="What would you like to discuss?" required /></div>
+              <div class="input-group"><label for="message">Message</label><textarea id="message" name="message" rows="7" placeholder="Write your message here..." required></textarea></div>
+              <button type="submit" class="btn btn-primary"><i class="fa-regular fa-paper-plane"></i> Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
-<footer>
-    <div class="container">
-        <p>&copy; 2026 Piyush Aughad. All rights reserved.</p>
-    </div>
-</footer>
+  <footer><div class="container"><p>&copy; 2026 Piyush Aughad. Designed as an interactive portfolio experience.</p></div></footer>
 
-<script src="assets/js/main.js"></script>
+  <script>
+    const navbar = document.getElementById('navbar');
 
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 10) navbar.classList.add('scrolled');
+      else navbar.classList.remove('scrolled');
+    });
+
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('.nav-links a');
+    function setActiveLink() {
+      let current = '';
+      sections.forEach(section => {
+        const top = window.scrollY;
+        const offset = section.offsetTop - 140;
+        const height = section.offsetHeight;
+        if (top >= offset && top < offset + height) current = section.getAttribute('id');
+      });
+      navLinks.forEach(link => link.classList.toggle('active', link.getAttribute('href') === '#' + current));
+    }
+    window.addEventListener('scroll', setActiveLink);
+    setActiveLink();
+
+    const typedText = document.getElementById('typedText');
+    const roles = ['Data Analyst','Data Engineer','Dashboard Developer','ETL & SQL Professional','DevOps & Cloud Learner'];
+    let roleIndex = 0, charIndex = 0, deleting = false;
+    function typeLoop() {
+      const currentRole = roles[roleIndex];
+      if (!deleting) {
+        typedText.textContent = currentRole.slice(0, charIndex + 1);
+        charIndex++;
+        if (charIndex === currentRole.length) { deleting = true; setTimeout(typeLoop, 1200); return; }
+      } else {
+        typedText.textContent = currentRole.slice(0, charIndex - 1);
+        charIndex--;
+        if (charIndex === 0) { deleting = false; roleIndex = (roleIndex + 1) % roles.length; }
+      }
+      setTimeout(typeLoop, deleting ? 45 : 85);
+    }
+    typeLoop();
+
+    const revealItems = document.querySelectorAll('.reveal');
+    const revealObserver = new IntersectionObserver(entries => {
+      entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('visible'); });
+    }, { threshold: 0.12 });
+    revealItems.forEach(item => revealObserver.observe(item));
+
+    const counters = document.querySelectorAll('.counter');
+    const counterObserver = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+        const counter = entry.target;
+        const target = +counter.dataset.target;
+        const duration = 1200;
+        const start = performance.now();
+        function update(now) {
+          const progress = Math.min((now - start) / duration, 1);
+          counter.textContent = Math.floor(progress * target);
+          if (progress < 1) requestAnimationFrame(update);
+          else counter.textContent = target;
+        }
+        requestAnimationFrame(update);
+        counterObserver.unobserve(counter);
+      });
+    }, { threshold: 0.4 });
+    counters.forEach(counter => counterObserver.observe(counter));
+
+    const progressBars = document.querySelectorAll('.skill-progress');
+    const progressObserver = new IntersectionObserver(entries => {
+      entries.forEach(entry => { if (entry.isIntersecting) { entry.target.style.width = entry.target.dataset.width; progressObserver.unobserve(entry.target); } });
+    }, { threshold: 0.3 });
+    progressBars.forEach(bar => progressObserver.observe(bar));
+
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const projectCards = document.querySelectorAll('.project-card[data-category]');
+    filterButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        const filter = button.dataset.filter;
+        filterButtons.forEach(btn => btn.classList.remove('active'));
+        button.classList.add('active');
+        projectCards.forEach(card => {
+          const category = card.dataset.category;
+          if (filter === 'all' || category === filter) card.classList.remove('hide');
+          else card.classList.add('hide');
+        });
+      });
+    });
+
+    const particleContainer = document.getElementById('particles');
+    const particleCount = 36;
+    for (let i = 0; i < particleCount; i++) {
+      const particle = document.createElement('span');
+      particle.className = 'particle';
+      const size = Math.random() * 4 + 2;
+      particle.style.width = size + 'px';
+      particle.style.height = size + 'px';
+      particle.style.left = (Math.random() * 100) + '%';
+      particle.style.bottom = (Math.random() * -120) + 'px';
+      particle.style.animationDuration = (Math.random() * 16 + 10) + 's';
+      particle.style.animationDelay = (Math.random() * 10) + 's';
+      particle.style.opacity = (Math.random() * 0.45 + 0.08).toString();
+      particleContainer.appendChild(particle);
+    }
+
+  </script>
 </body>
 </html>
