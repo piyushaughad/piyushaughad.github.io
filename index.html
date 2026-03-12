@@ -25,10 +25,31 @@
           <span class="brand-badge">PA</span>
           <span>Piyush Aughad</span>
         </a>
+
         <div class="nav-links">
-          <a href="#about">About</a><a href="#journey">Journey</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#contact">Contact</a>
+          <a href="#about">About</a>
+          <a href="#journey">Journey</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
         </div>
-        <a class="nav-cta" href="assets/Piyush_Aughad.pdf" download><i class="fa-solid fa-file-arrow-down"></i> Download CV</a>
+
+        <a class="nav-cta" href="assets/Piyush_Aughad.pdf" download>
+          <i class="fa-solid fa-file-arrow-down"></i> Download CV
+        </a>
+
+        <button class="menu-btn" id="menuBtn" aria-label="Open menu" type="button">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+
+      <div class="mobile-menu" id="mobileMenu">
+        <a href="#about">About</a>
+        <a href="#journey">Journey</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        <a href="assets/Piyush_Aughad.pdf" download>Download CV</a>
       </div>
     </nav>
   </div>
@@ -226,10 +247,24 @@
 
   <script>
     const navbar = document.getElementById('navbar');
+    const menuBtn = document.getElementById('menuBtn');
+    const mobileMenuLinks = document.querySelectorAll('.mobile-menu a');
 
     window.addEventListener('scroll', () => {
       if (window.scrollY > 10) navbar.classList.add('scrolled');
       else navbar.classList.remove('scrolled');
+    });
+
+    if (menuBtn) {
+      menuBtn.addEventListener('click', () => {
+        navbar.classList.toggle('open');
+      });
+    }
+
+    mobileMenuLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        navbar.classList.remove('open');
+      });
     });
 
     const sections = document.querySelectorAll('section[id]');
